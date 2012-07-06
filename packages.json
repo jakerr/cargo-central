@@ -199,6 +199,14 @@
         "description": "General purpose parser combinator library."
     },
     {
+        "name": "rrdf",
+        "uuid": "04400014-FB9C-44DD-B5DD-A49BE5613BD7",
+        "url": "https://github.com/jesse99/rrdf",
+        "method": "git",
+        "tags": ["rdf", "database", "web", "sparql"],
+        "description": "RDF triple store with SPARQL support."
+    },
+    {
         "name": "mre",
         "uuid": "b85803ee-819d-4b9d-adcd-ed8e356ceee3",
         "url": "https://github.com/erickt/mre",
