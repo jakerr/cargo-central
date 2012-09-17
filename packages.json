@@ -229,5 +229,13 @@
         "method": "git",
         "tags": ["units", "SI", "metric", "math", "dimensional", "analysis"],
         "description": "Dimensional analysis units library."
+    },
+    {
+        "name": "rwebserve",
+        "uuid": "00E58FAE-72B7-435F-88F4-0A7BD11CAF5C",
+        "url": "https://github.com/jesse99/rwebserve",
+        "method": "git",
+        "tags": ["HTTP", "web", "server"],
+        "description": "HTTP 1.1 web server."
     }
 ]
