@@ -222,4 +222,12 @@
         "tags": ["utility"],
         "description": "Rust code formatter"
     }
+    {
+        "name": "bimap",
+        "uuid": "221276d0-1442-4e68-99b4-283b75a8c934",
+        "url": "https://github.com/havvy/bimap",
+        "method": "git",
+        "tags": ["map", "datastructure"],
+        "description": "A bihashmap implementation and bimap iface."
+    }
 ]
