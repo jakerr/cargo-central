@@ -213,5 +213,13 @@
         "method": "git",
         "tags": ["data"],
         "description": "a Bloom Filter"
+    },
+    {
+        "name": "rustfmt",
+        "uuid": "553eca59-32d8-4dbd-852a-ea6b543a43f2",
+        "url": "git://github.com/dbp/rustfmt",
+        "method": "git",
+        "tags": ["utility"],
+        "description": "Rust code formatter"
     }
 ]
