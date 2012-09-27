@@ -199,6 +199,14 @@
         "description": "General purpose parser combinator library."
     },
     {
+        "name": "rrdf",
+        "uuid": "04400014-FB9C-44DD-B5DD-A49BE5613BD7",
+        "url": "https://github.com/jesse99/rrdf",
+        "method": "git",
+        "tags": ["rdf", "database", "web", "sparql"],
+        "description": "RDF triple store with SPARQL support."
+    },
+    {
         "name": "mre",
         "uuid": "b85803ee-819d-4b9d-adcd-ed8e356ceee3",
         "url": "https://github.com/erickt/mre",
@@ -229,5 +237,21 @@
         "method": "git",
         "tags": ["map", "datastructure"],
         "description": "A bihashmap implementation and bimap iface."
+    },
+    {
+        "name": "runits",
+        "uuid": "DA082E17-59F4-49A2-BFC2-CAAA1D0B7C94",
+        "url": "https://github.com/jesse99/runits",
+        "method": "git",
+        "tags": ["units", "SI", "metric", "math", "dimensional", "analysis"],
+        "description": "Dimensional analysis units library."
+    },
+    {
+        "name": "rwebserve",
+        "uuid": "00E58FAE-72B7-435F-88F4-0A7BD11CAF5C",
+        "url": "https://github.com/jesse99/rwebserve",
+        "method": "git",
+        "tags": ["HTTP", "web", "server"],
+        "description": "HTTP 1.1 web server."
     }
 ]
