@@ -223,6 +223,14 @@
         "description": "Rust code formatter"
     },
     {
+        "name": "rustrepl",
+        "uuid": "553eca59-32d8-4dbd-852a-ea6b543a43f2",
+        "url": "git://github.com/dbp/rustrepl",
+        "method": "git",
+        "tags": ["utility", "repl"],
+        "description": "A very simple repl that uses the compiler behind the scenes"
+    },
+    {
         "name": "bimap",
         "uuid": "221276d0-1442-4e68-99b4-283b75a8c934",
         "url": "https://github.com/havvy/bimap",
