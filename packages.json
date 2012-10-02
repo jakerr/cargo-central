@@ -233,7 +233,7 @@
     {
         "name": "bimap",
         "uuid": "221276d0-1442-4e68-99b4-283b75a8c934",
-        "url": "https://github.com/havvy/bimap",
+        "url": "https://github.com/Havvy/bimap",
         "method": "git",
         "tags": ["map", "datastructure"],
         "description": "A bihashmap implementation and bimap iface."
