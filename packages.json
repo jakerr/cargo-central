@@ -253,5 +253,13 @@
         "method": "git",
         "tags": ["HTTP", "web", "server"],
         "description": "HTTP 1.1 web server."
+    },
+    {
+        "name": "levenshtein",
+        "uuid": "580f87d6-067c-4a96-9dce-cf5b8ff86f58",
+        "url": "https://github.com/pwoolcoc/rust-levenshtein.git",
+        "method": "git",
+        "tags": ["strings", "algorithm"],
+        "description": "Simple implementation of the Levenshtein edit distance algorithm."
     }
 ]
