@@ -261,5 +261,13 @@
         "method": "git",
         "tags": ["strings", "algorithm"],
         "description": "Simple implementation of the Levenshtein edit distance algorithm."
+    },
+    {
+        "name": "url",
+        "uuid": "eb011554-a094-434a-92bd-a472de7bcf60",
+        "url": "https://github.com/erickt/rust-url.git",
+        "method": "git",
+        "tags": ["web"],
+        "description": "Fork of rust's std::net::url library."
     }
 ]
