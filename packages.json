@@ -269,5 +269,13 @@
         "method": "git",
         "tags": ["web"],
         "description": "Fork of rust's std::net::url library."
+    },
+    {
+        "name": "OpenCL",
+        "uuid": "26bc3ce8-7720-41a7-9280-c522285f2e70",
+        "url": "https://github.com/luqmana/rust-opencl.git",
+        "method": "git",
+        "tags": ["opencl", "gpgpu"],
+        "description": "OpenCL bindings for Rust."
     }
 ]
