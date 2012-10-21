@@ -277,5 +277,13 @@
         "method": "git",
         "tags": ["opencl", "gpgpu"],
         "description": "OpenCL bindings for Rust."
+    },
+    {
+        "name": "dablooms",
+        "uuid": "6d581e41-01ff-41a6-ae62-73d8b6d6b4f1",
+        "url": "git://github.com/gmcabrita/dablooms-rust",
+        "method": "git",
+        "tags": ["data"],
+        "description": "dablooms bindings for Rust."
     }
 ]
