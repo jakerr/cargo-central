@@ -285,5 +285,13 @@
         "method": "git",
         "tags": ["data"],
         "description": "dablooms bindings for Rust."
+    },
+    {
+        "name": "hiredis",
+        "uuid": "32db778e-2308-11e2-a811-5bfd418201b3",
+        "url": "https://github.com/uasi/rust-hiredis",
+        "method": "git",
+        "tags": ["database", "redis"],
+        "description": "A hiredis wrapper for Rust."
     }
 ]
