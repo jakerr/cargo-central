@@ -293,5 +293,21 @@
         "method": "git",
         "tags": ["database", "redis"],
         "description": "A hiredis wrapper for Rust."
+    },
+    {
+        "name": "glfw3",
+        "uuid": "6199FAD3-6D03-4E29-87E7-7DC1B1B65C2C",
+        "url": "https://github.com/bjz/glfw3-rs",
+        "method": "git",
+        "tags": ["opengl", "graphics"],
+        "description": "Bindings and wrapper functions for glfw3."
+    },
+    {
+        "name": "lmath",
+        "uuid": "A2DEEB53-EB35-4B44-B247-9044B57E3BA5",
+        "url": "https://github.com/bjz/lmath-rs",
+        "method": "git",
+        "tags": ["3d", "graphics", "math"],
+        "description": "A generic linear algebra library."
     }
 ]
