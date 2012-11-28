@@ -325,5 +325,13 @@
         "method": "git",
         "tags": ["openal", "audio"],
         "description": "OpenAL 1.1 bindings for Rust."
+    },
+    {
+        "name": "magic",
+        "uuid": "201abfd3-0d07-41ab-a6c5-9eb94b318383",
+        "url": "git://github.com/thestinger/rust-magic",
+        "method": "git",
+        "tags": ["mime"],
+        "description": "libmagic bindings for Rust."
     }
 ]
