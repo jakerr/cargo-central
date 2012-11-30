@@ -333,5 +333,13 @@
         "method": "git",
         "tags": ["mime"],
         "description": "libmagic bindings for Rust."
+    },
+    {
+        "name": "gmp",
+        "uuid": "a92b7244-82a4-4825-9951-1d475b1296f9",
+        "url": "git://github.com/thestinger/rust-gmp",
+        "method": "git",
+        "tags": ["math"],
+        "description": "gmp bindings for Rust."
     }
 ]
