@@ -341,5 +341,13 @@
         "method": "git",
         "tags": ["math"],
         "description": "gmp bindings for Rust."
-    }
+    },
+    {
+        "name": "rustils",
+        "uuid": "F0FF92C4-17D3-4F54-BB65-AEA98811979F",
+        "url": "git://github.com/smadhueagle/rustils.git",
+        "method": "git",
+        "tags": ["utility", "utilities"],
+        "description": "A collection of useful modules to use with Rust."
+    }    
 ]
