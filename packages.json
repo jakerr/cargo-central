@@ -349,5 +349,13 @@
         "method": "git",
         "tags": ["utility", "utilities"],
         "description": "A collection of useful modules to use with Rust."
-    }    
+    },
+    {
+        "name": "zipper",
+        "uuid": "23781e40-8ba9-4a76-8215-6e160d41498e",
+        "url": "git://github.com/cretz/rusty-zipper.git",
+        "method": "git",
+        "tags": ["zip", "compression"],
+        "description": "Bindings and wrapper for libzip."
+    }
 ]
