@@ -357,5 +357,13 @@
         "method": "git",
         "tags": ["zip", "compression"],
         "description": "Bindings and wrapper for libzip."
+    },
+    {
+        "name": "numeric",
+        "uuid": "F7AC971C-948E-47C0-993D-F65020B7D0BF",
+        "url": "https://github.com/bjz/cargo-central.git",
+        "method": "git",
+        "tags": ["math", "types"],
+        "description": "Various traits and methods to make generic mathematics in Rust more pleasant."
     }
 ]
