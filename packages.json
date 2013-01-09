@@ -365,5 +365,13 @@
         "method": "git",
         "tags": ["math", "types"],
         "description": "Various traits and methods to make generic mathematics in Rust more pleasant."
+    },
+    {
+        "name": "leveldb",
+        "uuid": "122bed0b-c19b-4b82-b0b7-7ae8aead7297",
+        "url": "git://github.com/thestinger/rust-leveldb.git",
+        "method": "git",
+        "tags": ["database"],
+        "description": "LevelDB bindings"
     }
 ]
