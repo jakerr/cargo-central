@@ -1,0 +1,66 @@
+body,table {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 18px;
+	font-size: 13px;
+	color: #404040;
+}
+thead {
+	text-align: left;
+	background: #eee;
+	font-style: bold;
+	font-size: 18px;
+}
+h1>small {
+	line-height: 25px;
+	margin-left:10px;
+	font-size: 14px;
+	font-style: normal;
+	color: #bfbfbf;
+}
+.search {
+	padding-left: 8px;
+}
+.package_table {
+	width: 90%;
+	margin-top: 10px;
+}
+.light_row {
+	background-color: #f0f0f0;
+}
+.dark_row {
+	background-color: #e5e5e5;
+}
+.name {
+	font-size:16px;
+}
+.tag {
+	background-color: #eee;
+	border-radius: 8px;
+	border: 1px dotted #bbb;
+	margin: 3px;
+	display: inline-block;
+	padding: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.no_tags {
+	opacity: 0.2;
+}
+
+/* Accent color pallete */
+.color1  { background-color: #DBACAC}
+.color2  { background-color: #DBBEAC}
+.color3  { background-color: #DBCFAC}
+.color4  { background-color: #D5DBAC}
+.color5  { background-color: #C4DBAC}
+.color6  { background-color: #B2DBAC}
+.color7  { background-color: #ACDBB9}
+.color8  { background-color: #ACDBCA}
+.color9  { background-color: #ACDBDB}
+.color10 { background-color: #ACC9DB}
+.color11 { background-color: #ACB7DB}
+.color12 { background-color: #B4ACDB}
+.color13 { background-color: #C5ACDB}
+.color14 { background-color: #D6ACDB}
+.color15 { background-color: #DBACCF}
+.color16 { background-color: #DBACBD}

@@ -1,0 +1,63 @@
+<html ng-app>
+<head>
+	<title>Rust - Cargo Central</title>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+	<script type="text/javascript">
+		function CargoCtrl($scope, $http) {
+			$http.get('packages.json').then(function(res) {
+				$scope.packages = res.data;
+				$scope.allTags = {};
+				var TotalColors = 16;
+				var tagCount = 0;
+				angular.forEach($scope.packages, function(pkg){
+					angular.forEach(pkg.tags, function(tag){
+						if (!$scope.allTags[tag]) {
+							$scope.allTags[tag] = {
+								color: "color" + ((tagCount % TotalColors)+1)
+							};
+							tagCount++;
+						}
+					});
+				});
+			});
+			$scope.tagColorClass = function(tag) {
+				return $scope.allTags[tag].color;
+			};
+			// Turn github repo urls into a link to the github
+			// project page.
+			$scope.projectLink = function(url) {
+				url = url.replace(/(git|https?):\/\//, "http://");
+				url = url.replace(/\.git$/, "");
+				return url;
+			};
+		}
+	</script>
+</head>
+<body ng-controller="CargoCtrl">
+	<h1>Cargo Central<br>
+	<small>The central community package index for the <i>cargo</i>, the <i>Rust</i> programming language's package manager.</small><br></h1>
+	<div class="search">Search: <input ng-model="query"></div>
+	<table class="package_table">
+		<thead>
+			<th>Name</th>
+			<th>Description</th>
+			<th>Tags</th>
+			<th>Url</th>
+		</thead>
+		<tbody>
+			<tr ng-repeat="pkg in packages | filter:query | orderBy:'name':false"
+					ng-class-odd="'light_row'"
+					ng-class-even="'dark_row'">
+				<td><span class="name">{{pkg.name}}</span></td>
+				<td>{{pkg.description}}</td>
+				<td class="tags">
+					<span ng-hide="pkg.tags.length" class="tag no_tags">none</span>
+					<span ng-repeat="tag in pkg.tags" class="tag ng-class:tagColorClass(tag)">{{tag}}</span>
+				</td>
+				<td><a href="{{projectLink(pkg.url)}}">{{projectLink(pkg.url)}}</a></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
