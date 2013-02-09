@@ -6,4 +6,7 @@ the `packages.json` file here. It should be pretty obvious what to add.
 If you want more details on how all this works, see the linked wiki pages.
 
 [1]: http://github.com/mozilla/rust/wiki/Doc-using-cargo-to-manage-packages
-[2]: http://www.rust-lang.org 
+[2]: http://www.rust-lang.org
+
+Browse the index here:
+http://jakerr.github.com/cargo-central
